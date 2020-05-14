@@ -1,0 +1,26 @@
+{
+    "name": "covid-tracker",
+    "version": "1.0.0",
+    "description": "Milestone 2 - Implementation, CS 4803/8803 3DUI, Spring 2020",
+    "main": "index.ts",
+    "dependencies": {
+        "@babylonjs/serializers": "^4.1.0"
+    },
+    "devDependencies": {
+        "@babylonjs/core": "^4.1.0",
+        "@babylonjs/gui": "^4.1.0",
+        "@babylonjs/loaders": "^4.1.0",
+        "@babylonjs/materials": "^4.1.0",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.4",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1"
+    },
+    "scripts": {
+        "start": "npx webpack-dev-server --host 0.0.0.0",
+        "build": "npx webpack && /bin/cp dist/main.js ./main.js && git add dist/main.js ./main.js && git commit -m 'New build'"
+    },
+    "author": "Khushman Patel <khushman@gatech.edu>",
+    "license": "CC BY-NC-SA 4.0"
+}
