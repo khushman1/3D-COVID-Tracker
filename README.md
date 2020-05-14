@@ -18,4 +18,4 @@ We use `trimage` to optimize the generated images. To remove this step, you can 
 
 You can either build the project using `npm run build` or start a development server with `npm run start`.
 
-A live version of the project can be accessed at 
+A live version of the project can be accessed [here](http://khushmanpatel.com/3D-COVID-Tracker/).
